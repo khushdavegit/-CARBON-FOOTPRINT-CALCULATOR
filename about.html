@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link  rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" >
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 40px;
+  text-align: center;
+  background-image: url("images/leaves.jpg");
+  font-size: 100px;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.fakeimg2 {
+  background-image: url("images/carbon-footprint.jpg");
+  background-position:center;
+  width:500px;
+  padding: 200px;
+}
+
+.fakeimg3 {
+  background-image: url("images/3R's.jpg");
+  width: 600px;
+  padding: 180px;
+}
+
+.footer {
+  padding: 5px;
+  text-align: center;
+  background-color: darkgreen;
+  font-size: 18px;
+}
+
+</style>
+</head>
+<body>
+  <header class="text-gray-700 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 font-bold text-2xl">Save-Earth</span>
+    </a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-2xl justify-center">
+      <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+      <a href="about.html" class="mr-5 hover:text-gray-900">About</a>
+      <a href="contact.html" class="mr-5 hover:text-gray-900">Contact</a>
+    </div>
+    </header>
+
+<div class="header">
+  <h1 style= "font-size:100px; font-family:cantarell;">ABOUT US</h1>
+</div>
+
+
+<div class="row">
+  <div class="side">
+    <p style=" font-size:60px; font-family:cantarell; color: green;"><b>CARBON FOOTPRINT</b></p>
+    <p style="font-size:30px; font-family:cursive;">Carbon footprint is the amount of energy, greenhouse gases and waste that is generated to support the lifestyle of a country, group or individual.
+    You have your own carbon footprint.</p>
+    <h3 style="font-size:60px;"><b><i>One small step for Man, One giant leap for Mankind…</i></b></h3>
+    <div class="fakeimg2"></div><br>
+  </div>
+  <div class="main">
+    <h2 style="font-size:60px; font-family:cantarell; color:green;">CARBON FOOTPRINT CALCULATOR</h2>
+    <div class="fakeimg3"></div>
+    <p style="font-size:50px; font-family:monospace; color:forestgreen;"><b>Why Calculate Your Carbon Footprint?</b></p>
+    <ul style="font-size:30px; font-family:cursive;">
+    <li> The most useful part of a carbon footprint calculator is that you see all the surprising factors that contribute to the amount of energy you consume, because once you know what uses a lot of energy, you will know better how to reduce your footprint, and how to save yourself some cash too.</li>
+    <li>Knowing your carbon footprint can let you plan on ways to focus on offsetting your carbon footprint, switching to a carbon neutral form of energy like wind or solar with a goal of being carbon neutral.</li>
+    <li>Calculating your carbon footprint on an annual or even quarterly basis can help you engage with how you are consuming resources and make adjustments, big and small, that help keep us sustainable.</li>
+    </ul>
+    <br>
+    <p style="font-size:50px; font-family:monospace; color:green; color:forestgreen"><b>How to Reduce Your Carbon Footprint?</b></p>
+<ul style="font-size:30px; font-family:cursive;">
+<li> Limiting the use of your private vehicles and utilizing public transportation</li>
+<li>Recycling materials that can be recycled</li>
+<li>Buying only what you need</li>
+<li>Choosing products that are environment friendly</li>
+<li>Buying local foods and supporting your local farmers</li>
+<li>Reducing waste</li>
+<li>Conserving electricity and water</li>
+<li>Use renewable energy whenever available</li>
+<li>Choose products that are not overly packaged. This is waste and manufacturers should be discouraged</li>
+<li>Limit the use of plastics. When shopping, bring your own bag</li>
+<li>Embrace Fair Trade goods</li>
+</ul>
+</div>
+<div class="footer">
+  <h1 style= "font size:22px;font-family:cantarell; color: white">Do your best to lower your carbon footprint in your own small ways.
+  Help us spread the word and make as many people aware of the importance of their carbon footprints.</h1>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="og.js" type="text/javascript"></script>
+</body>
+</html>
